@@ -12,7 +12,7 @@ attr_accessor :name
     end
 
     def self.all
-      @all.each do |dog|
+      @@all.each do |dog|
         puts "#{dog.name}"
       end
     end
